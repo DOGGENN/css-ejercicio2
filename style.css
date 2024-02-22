@@ -1,11 +1,36 @@
 body{
     background-color: black;
     display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 25px;
+}
+ul li{
+    padding: 10px;
+}
+.size{
+    font-size:  35px;
+}
+.auto{
+    margin: 0px;
+
 }
 /* HEADER */
 .h__headder--l {
         /* background-color: black; */
-        width: 100vw;
+        max-width: 100vw;
         height: 100vh;
     }
 .h__header--line {
@@ -13,9 +38,12 @@ body{
     height: 125px;
     /* background-color: brown; */
     display: flex;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
 }
 .h__header--box {
-    width: 10%;
+    width: 7%;
     height: 125px;
     /* background-color: rgb(0, 255, 76); */
     display: flex;
@@ -25,22 +53,33 @@ body{
     background-size: cover; /* Esto hace que la imagen cubra todo el área del fondo */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-attachment: fixed; /* Hace que la imagen se mantenga estática mientras se desplaza la página */
+    /*margin: -10px; */
+    /*padding: 0px; */
 }
 .azul {
     color: #5AAED6;
 }
-
-
-
-
-
-
-
+.ajuste {
+    text-align: center;
+    font-size: 75px;
+    display: flex; /* Utilizamos flexbox */
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center;
+        /* max-width: 50%; /* La imagen no sobrepasará el ancho del contenedor */
+    /*max-height: 100%; */
+}
+.ajuste span {
+    text-align: center;
+    max-width: 50%; /* La imagen no sobrepasará el ancho del contenedor */
+    max-height: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
 /* BOX */
 .box1{
-    /* width: 100%; Ancho de la caja */
-    height: 100%; /* Alto de la caja */
+    /*width: 100%; /*Ancho de la caja */
+    height: 147px; /* Alto de la caja */
     /* border: 1px solid #ccc; Borde de la caja (opcional) */
     display: flex; /* Utilizamos flexbox */
     justify-content: center; /* Centramos horizontalmente */
@@ -50,15 +89,35 @@ body{
 }
 .box1 img {
     max-width: 50%; /* La imagen no sobrepasará el ancho del contenedor */
-    max-height: 100%; /* La imagen no sobrepasará el alto del contenedor */
-  }
+    max-height: 100%;/* La imagen no sobrepasará el alto del contenedor*/
+}
+
+
+.body{
+    max-width: 3000px;
+    background-color: black;
+    display: none;
+    flex-direction: column;
+    
+}
+.body2 {
+    width: 100%;
+    height: 200px; /* Por ejemplo, ajusta la altura según tus necesidades */
+    background-color: lightgray; /* Por ejemplo, el color de fondo que desees */
+    /* Agrega otros estilos según sea necesario */
+    
+}
+
 .box2{
+    
     /* background-color: rgb(42, 165, 69); */
 }
 .box3{
+    
     /* background-color: rgb(255, 165, 69); */
 }
 .box4{
+    padding-left: 500px;
     /* background-color: rgb(42, 165, 255); */
 }
 .box5{
@@ -71,13 +130,18 @@ body{
     /* background-color: rgb(0, 127, 0); */
 }
 .box8{
+     
     /* background-color: rgb(0, 0, 127); */
 }
 .box9{
     /* background-color: rgb(127, 0, 127); */
+    align-items: center;
+    text-align: right;
+    
 }
 .box10{
     /* background-color: rgb(0, 127, 127); */
+    align-items: center;
 }
 .box11{
     /* background-color: rgb(127, 127, 127); */
