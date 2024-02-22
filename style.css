@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    display: flex;
+}
+/* HEADER */
+.h__headder--l {
+        /* background-color: black; */
+        width: 100vw;
+        height: 100vh;
+    }
+.h__header--line {
+    width: 100%;
+    height: 125px;
+    /* background-color: brown; */
+    display: flex;
+}
+.h__header--box {
+    width: 10%;
+    height: 125px;
+    /* background-color: rgb(0, 255, 76); */
+    display: flex;
+}
+.background{
+    background-image: url(./img/bmw-m3-gtr-need-speed.png);
+    background-size: cover; /* Esto hace que la imagen cubra todo el área del fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Hace que la imagen se mantenga estática mientras se desplaza la página */
+}
+.azul {
+    color: #5AAED6;
+}
+
+
+
+
+
+
+
+
+/* BOX */
+.box1{
+    /* width: 100%; Ancho de la caja */
+    height: 100%; /* Alto de la caja */
+    /* border: 1px solid #ccc; Borde de la caja (opcional) */
+    display: flex; /* Utilizamos flexbox */
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+    /* background-color: rgb(61, 42, 165); */
+    /* background-image: url(./img/BMW.png); */
+}
+.box1 img {
+    max-width: 50%; /* La imagen no sobrepasará el ancho del contenedor */
+    max-height: 100%; /* La imagen no sobrepasará el alto del contenedor */
+  }
+.box2{
+    /* background-color: rgb(42, 165, 69); */
+}
+.box3{
+    /* background-color: rgb(255, 165, 69); */
+}
+.box4{
+    /* background-color: rgb(42, 165, 255); */
+}
+.box5{
+    /* background-color: rgb(42, 255, 69); */
+}
+.box6{
+    /* background-color: rgb(127, 0, 0); */
+}
+.box7{
+    /* background-color: rgb(0, 127, 0); */
+}
+.box8{
+    /* background-color: rgb(0, 0, 127); */
+}
+.box9{
+    /* background-color: rgb(127, 0, 127); */
+}
+.box10{
+    /* background-color: rgb(0, 127, 127); */
+}
+.box11{
+    /* background-color: rgb(127, 127, 127); */
+}
