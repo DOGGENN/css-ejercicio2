@@ -166,6 +166,7 @@ br{
 .left{
     text-align: left;
 }
+
 /* BOX */
 .box1{
     /*width: 100%; /*Ancho de la caja */
@@ -226,4 +227,14 @@ br{
     margin-bottom: 750px;
     color: white;
     /* background-color: rgb(127, 127, 127); */
+}
+/* BOTON */
+.button {
+    border-radius: 25px;
+    background-color: #0071e3;
+    font-size: 17px;
+    padding: 8px 16px;
+    color: white;
+    height: 60px;
+    width: 200px;
 }
